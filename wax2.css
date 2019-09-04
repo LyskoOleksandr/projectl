@@ -70,9 +70,7 @@ li {
 	width: 180px;
 }
 
-.nav {
 
-}
 
 .nav a{
 	text-decoration: none;
@@ -288,11 +286,6 @@ li {
 	justify-content: center;
 	margin-top: 40px;
 	/*border-bottom-left-radius: 0.25rem !important;*/
-}
-
-.list-group-item:last-child{
-	/*border-bottom-left-radius: 0.25rem;*/
-
 }
 
 .list-group-item{
