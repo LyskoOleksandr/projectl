@@ -7,6 +7,51 @@
 	src: url('icomoon/fonts/icomoon.woff');
 }
 
+@media (max-width: 1060px) {
+
+}
+
+#toggle {
+	opacity: 0;
+}
+
+.toggle-container {
+	display: flex;
+	align-items: center;
+	position: fixed;
+	top: 20px;
+	right: 20px;
+
+	width: 26px;
+	height: 26px;
+
+	cursor: pointer;
+	z-index: 1;
+}
+
+.toggle-container > span,
+.toggle-container > span::before,
+.toggle-container > span::after {
+	display: block;
+	position: absolute;
+
+	width: 100%;
+	height: 2px;
+	background-color: #616161;
+}
+
+.toggle-container > span::before {
+	content: '';
+	top: -8px;
+}
+
+.toggle-container > span::after {
+	content: '';
+	top: 8px;
+}
+
+
+
 body {
 	font-family: 'icomoon', sans-serif;
 	font-family: 'Montserrat', sans-serif;
@@ -42,7 +87,11 @@ a {
 a:hover {
 	text-decoration: none;
 }
+/* бургер меню */
 
+
+
+/*  */
 .search {
 	color: #fff;
 	height: 42px;
@@ -492,6 +541,14 @@ img {
 	color: #c7b299;
 }
 
+.mobile {
+	height: 100%;
+	width: 100%;
+	max-width: 100%;
+}
+
+
+
 .mobdev{
 	background: #fbfaf8;
 	color: #8c8c8c;
@@ -527,6 +584,7 @@ img {
 	justify-content: center;
 	align-items: center;
 	padding-top: 70px;
+
 }
 
 .icon-listmark{
@@ -787,11 +845,13 @@ img {
 	font-size: 14px;
 }
 
-.footer a,p{
+.footer a{
 	color: #555555;
 }
 
-
+.copyr {
+	color: #555555;
+}
 
 
 
@@ -825,6 +885,6 @@ img {
 	padding: 0;
 }
 
-.foot-hover:hover a,span{
+.foot-hover:hover a{
 	color: #bfab93;
 }
